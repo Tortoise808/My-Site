@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  text-align: center;
+  color: #005555;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+h1{
+  color: #68A7AD;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #68A7AD;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr{
+  border-style: none;
+  width: 5%;
+  border-top: dotted #DDDEDE 8px;
+  margin: 100px auto;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+p{
+  line-height: 2;
+}
+.top-container{
+  background-color: #E8F9FD;
+  position: relative;
+  padding-top: 100px;
+}
+  .top-cloud{
+    position: absolute;
+    right: 250px;
+    top: 100px;
+  }
+  .bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+  }
+  .mountain{
+    position: relative;
+    top: 4px;
+  }
+.middle-container{
+  padding: 100px;
+  background-color: #EEEEEE;
+
+}
+  .profile-img{
+    width: 100px;
+    height: auto;
+  }
+  .intro{
+    width: 45%;
+    margin: auto;
+  }
+  .skills-img{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+  }
+  .skills-img2{
+    width: 20%;
+    float: right;
+    padding-left: 30px;
+  }
+  .skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  .btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  color: #68A7AD;
+  font-size: 16px;
+  background: #E8F9FD;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #C4DDFF;
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #E8F9FD;
+  height: 200px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+  .contact-message{
+    margin: 40px auto 60px;
+  }
+  .handles{
+    margin: 50px auto;
+    padding-left: 30%;
+    font-size: 100%;
+  }
+  .copyright{
+    font-family: 'Merriweather', sans-serif;
+    font-size: small;
+    margin: 50px auto;
+    clear: left;
+  }
+  .footer-link{
+    display: block;
+    float: left;
+    margin:10px 30px 30px 30px;
+  }
+  .footer-link:hover{
+    color: #C4DDFF;
+
+  }
